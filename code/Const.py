@@ -79,9 +79,9 @@ ENTITY_DAMAGE = {
     'Level2Bg3': 0,
     'Level2Bg4': 0,
     'Player1'  : 1,
-    'Player1Shot': 25,
+    'Player1Shot': 35,
     'Player2'  : 1,
-    'Player2Shot': 20,
+    'Player2Shot': 30,
     'Enemy1'   : 1,
     'Enemy1Shot': 20,
     'Enemy2'   : 1,
@@ -141,3 +141,20 @@ TIMEOUT_LEVEL = 20000 # 20 segundos
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT: int = 324
+
+#s
+SCORE_POS = {'Title': (WIN_WIDTH / 2, 50),
+             'EnterName': (WIN_WIDTH / 2, 80),
+             'Label': (WIN_WIDTH / 2, 90),
+             'Name': (WIN_WIDTH / 2, 110),
+             0: (WIN_WIDTH / 2, 110),
+             1: (WIN_WIDTH / 2, 130),
+             2: (WIN_WIDTH / 2, 150),
+             3: (WIN_WIDTH / 2, 170),
+             4: (WIN_WIDTH / 2, 190),
+             5: (WIN_WIDTH / 2, 210),
+             6: (WIN_WIDTH / 2, 230),
+             7: (WIN_WIDTH / 2, 250),
+             8: (WIN_WIDTH / 2, 270),
+             9: (WIN_WIDTH / 2, 290),
+}
